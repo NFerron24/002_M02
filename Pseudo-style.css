@@ -1,0 +1,50 @@
+main,
+nav {
+  display: flex;
+  font: arial;
+  width: 100%;
+  font-size: 18px;
+  margin: 0px;
+  color: white;
+  background-color: blue;
+}
+ul {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 1px;
+  margin-right: 0px;
+}
+.knop a {
+  background-color: whitesmoke;
+  text-decoration: none;
+  border: 1px rgb(8, 122, 216) solid;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 0.8px;
+  margin-right: 5px;
+}
+.knop a:hover {
+  background-color: rgb(161, 182, 199);
+}
+.knop .currentPage {
+  background-color: rgb(161, 182, 199);
+}
+.knop .moose:hover {
+  background-color: rgb(127, 234, 241);
+  font-weight: bold;
+}
+.knop .finch:active {
+  background-color: rgb(248, 27, 27);
+  font-weight: italic;
+}
+.knop a .giraffe:visited {
+  color: rgb(243, 215, 59);
+}
+
+input:focus {
+  color: green;
+  font-size: 20px;
+  border: 3px solid aquamarine;
+  outline: none;
+}
